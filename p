@@ -79,9 +79,31 @@ name = input("Enter name: ")
 age = input("Enter age: ")
 print (f"My name is: {name}. I am {age} years old")
 
-"""
+
 
 x = 9
 y = 3
 result = (x / y)
 print (result)
+
+
+
+languages = ["eng", "fre", "ger"]
+for idx, language in enumerate(languages):
+    print (language)
+    print(idx)
+
+    """
+
+data = {
+	"first_name": "brian",
+	"last_name": "johnson",
+	"occupation": "student"
+}
+
+scores = [6, 9, 8, 7, 8, 9]
+
+
+for key, value in data.items():
+    print (key.replace("_", " ").capitalize(), ":", value.capitalize())
+    
